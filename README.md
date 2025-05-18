@@ -1,26 +1,27 @@
-# Advanced Custom Fields PRO
+# Advanced Custom Fields
 
-![GitHub followers](https://img.shields.io/github/followers/wordpress-premium) ![GitHub Repo stars](https://img.shields.io/github/stars/wordpress-premium/advanced-custom-fields-pro) ![GitHub last commit](https://img.shields.io/github/last-commit/wordpress-premium/advanced-custom-fields-pro)
+Welcome to the official Advanced Custom Fields repository on GitHub. ACF is a WordPress plugin used to take full control of your edit screens & custom field data.
 
-**Advanced Custom Fields Pro** (ACF Pro) is a popular WordPress plugin that allows developers to create custom fields and content for their websites easily. **This is the fully activated [pro version](https://www.advancedcustomfields.com/pro/), which has been thoroughly checked for malware and is safe to use for research purposes.** 
+## Documentation
 
-**Note:** Using activated software may violate the original author's licensing terms and may not receive official support or updates.
+Do you need help getting started with ACF, or do you have questions about one of the ACF features? You can [search through our documentation here](https://www.advancedcustomfields.com/resources/). If you don't find the answers you're looking for, you can start a new forum thread in the [support forum](https://support.advancedcustomfields.com/) or contact our [support team](https://www.advancedcustomfields.com/contact/)
 
-**If you appreciate this service and would like to keep getting recent, malware-free updates, please consider [leaving a tip via PayPal](https://www.paypal.com/paypalme/thaikolja).**
+If you've got feedback or a feature suggestion for ACF, please use our [feedback board](https://www.advancedcustomfields.com/feedback/)
 
-## Changelog
+## Support
 
-### v6.3.4 (latest)
+This repository is not suitable for support. Please don't use our issue tracker for support requests, but for core issues only. 
+Support can take place in the appropriate channels:
 
-**Release Date:** 18th July 2024
+* Community forum
+* Email based ticket system 
 
-* **Security Fix** - The ACF shortcode now prevents access to fields from different private posts by default. View the [release notes](https://www.advancedcustomfields.com/blog/acf-6-3-4) for more information
-* **Fix** - Users without the `edit_posts` capability but with custom capabilities for editing a custom post type can now correctly load field groups loaded via conditional location rules
-* **Fix** - Block validation no longer validates a field’s sub-fields on page load, only on edit. This resolves inconsistent validation errors on page load or when first adding a block
-* **Fix** - Deactivating an ACF PRO license will now remove the license key even if the server call fails
-* **Fix** - Field types returning objects no longer cause PHP warnings and errors when output via `the_field`, `the_sub_field`, or the ACF shortcode, or when retrieved by a `get_` function with the escape html parameter set
-* **Fix** - Server-side errors during block rendering now gracefully display an error to the editor
+These channels can be accessed from our [support website](https://support.advancedcustomfields.com/).
 
----
+## Contributing
 
-For changelogs of older versions, check the [official website](https://www.advancedcustomfields.com/changelog/).
+If you have a patch, or stumbled upon an issue with ACF core, you can contribute this back to the code. Please create a new github issue with as much information as possible, and a PR if appropriate.
+
+## Translations
+
+If you're looking to translate ACF, you can submit new PRO translations via a PR on this repo. Any strings from the free version are imported from [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/advanced-custom-fields/stable/). For more information, please view our [translation guide](https://www.advancedcustomfields.com/resources/how-to-help-translate-acf-into-other-languages/)

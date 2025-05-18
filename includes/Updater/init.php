@@ -38,7 +38,8 @@ if ( ! class_exists( 'ACF_Updates' ) ) {
 	 *
 	 * @param   array $plugin Plugin data array.
 	 */
-	function acf_register_plugin_update() {
+	function acf_register_plugin_update( $plugin ) {
+		acf_updates()->add_plugin( $plugin );
 	}
 
 	/**
